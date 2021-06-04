@@ -1,0 +1,39 @@
+Bài 4: Debug, HTML and Git
+- Cách đặt tên file:
+    - Không đặt tiếng việt có dấu
+    - Không chứa kí tự dấu cách (thay dấu cách giữa các từ bằng dấu -)
+    - Cố gắng đặt tên function bằng Tiếng Anh -> Nên trau dồi thêm tiếng Anh
+
+    - Muốn tìm lỗi (Debug) để sửa lỗi (Fixbug) thì chúng ta có thể tìm ở
+        1. Màn hình problems trên vscode (view > terminal)
+        2. Sang bên trình duyệt và F12 (inspect) > console để tìm ra dòng lỗi
+            - Warning(màu vàng - cảnh báo): Code không đúng nhưng không bị ảnh hưởng, có thể sẽ sinh ra lỗi
+            - Error(màu đỏ - lỗi): Nguyên nhân khiến chương trình không chạy
+            Có 2 dạng lỗi:
+                - Lỗi cú pháp(syntax): báo đỏ
+                - Lỗi logic: Chương trình vẫn chạy nhưng ra kết quả sai
+                    -> Đặt console.log ở những vị trí mình nghi ngờ có giá trị sai để kiểm tra
+HTML :
+1. HTML là gì? - Ngôn ngữ hiển thị dùng để xây dựng và cấu trúc các webpage
+2. HTML là viết của từ nào? - HyperText Markup Language - Ngôn ngữ đánh dấu siêu văn bản
+    - HyperText: Siêu văn bản - text + media(image, sound, video..)
+    - Markup: Đánh dấu - tag (thẻ)
+        - Bản chất chất HTML được cấu thành bời các thẻ <tag_name>
+    - Language: Ngôn ngữ
+3. Thế nào thì được gọi là siêu văn bản?
+
+Có 2 loại thẻ chính trong HTML:
+- Thẻ block: Chiếm cả dòng
+- Thẻ inline: Chiếm bằng độ dài nội dung
+Món nhóm (group) các thẻ html lại:
+- Dùng thẻ div - division - khu vực
+
+Với đường dẫn - chúng ta có 2 loại đường dẫn:
+- Đường dẫn tuyệt đối: độc lập, không phụ thường, dường dẫn đầy đủ của 1 tài nguyên
+- Đường dẫn tương đối:
+
+* Tìm hiểu về doctype
+* Tìm hiểu về meta - charset
+* Tìm hiểu các tips trên VSCode - phím tắt (shortcut)
+* Xem HTML trên w3school đến phần Block & Inline
+* BTVN: Làm 1 trang web giới thiệu bản thân bằng HTML
